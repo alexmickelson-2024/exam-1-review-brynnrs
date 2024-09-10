@@ -1,0 +1,39 @@
+
+
+:root{
+    --banner-bg-color: hsl(207, 100%, 17%);
+    --header-font-family: sans-serif;
+    --para-font-family: serif;
+
+}
+
+#banner{
+    display: inline-block;
+    background-color: var(--banner-bg-color);
+    /* max-width: 25em; */
+}
+
+div#cards{
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+}
+
+header {
+    font-family: var(--header-font-family);
+}
+
+div#picturePlaceholder {
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+    font-family: var(--para-font-family);
+}
+
+footer {
+    display: inline-block;
+}
