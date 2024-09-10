@@ -7,13 +7,16 @@
 
 }
 
+body{
+    margin: 0;
+}
+
 #banner{
     display: inline-block;
     background-color: var(--banner-bg-color);
-    /* max-width: 25em; */
 }
 
-div#cards{
+section#cards{
     display: inline-block;
 }
 
