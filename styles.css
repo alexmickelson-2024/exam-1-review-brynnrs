@@ -18,7 +18,9 @@ body {
 
 .nav_bar {
     display: inline-block;
-    padding-left: .5em;
+    margin-bottom: 0;
+    padding-left: .75em;
+    width: 22.5em;
  }
 
 .nav_button {
@@ -26,10 +28,13 @@ body {
     background-color: white;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: .3em;
-    padding-bottom: .3em;
+    padding-top: .5em;
+    padding-bottom: .5em;
     margin: 0em .5em .5em .5em;
     list-style: none;
+    text-align: left;
+    width: 30%;
+    font-size: 1.25em;
 }
 
 .nav_button a {
@@ -40,6 +45,9 @@ body {
 
 figure {
     display: inline-block;
+    border-width: .01em;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
 }
 
 figcaption {
@@ -48,22 +56,48 @@ figcaption {
     padding: 1em;
 }
 
-p {
+#leftMain {
     display: inline-block;
+    width: 50%;
 }
 
-header {
-    color: var(--bg-blue)
+#leftMain header {
+    font-size: larger;
+    color: var(--bg-blue);
 }
 
-div#picturePlaceholder {
+#rightMain {
     display: inline-block;
-}
-
-p {
-    display: inline-block;
-}
+    padding: 1em;
+    width: 50%;
+} 
 
 footer {
+    margin: 0;
+}
+
+footer h3{
+    padding: .25em .5em;
+    font-size: 2em;
+    background-color: lightgray;
+}
+
+footer p {
+    color: hsl(25, 85%, 54%);
+    font-size: 1.5em;
+    margin: 0 0 0 .75em;
+}
+
+#footer1 {
+    width: 49.85%;
+    display: inline-block;
+}
+
+#footer1 h3 {
+    margin: 1em 1em 1em 0;
+}
+
+#footer2 {
+    width: 49.85%;
     display: inline-block;
 }
