@@ -58,19 +58,30 @@ figcaption {
 
 #leftMain {
     display: inline-block;
-    width: 50%;
+    padding: 1em;
+    width: 40%;
 }
 
-#leftMain header {
+#pageHeader {
     font-size: larger;
     color: var(--bg-blue);
+}
+
+#picturePlaceholder {
+    width: 100%;
 }
 
 #rightMain {
     display: inline-block;
     padding: 1em;
-    width: 50%;
+    width: 55%;
+    line-height: 1.5em;
+    font-size: 1.5em;
 } 
+
+#rightMain p {
+    margin: 0;
+}
 
 footer {
     margin: 0;
